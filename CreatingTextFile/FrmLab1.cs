@@ -31,5 +31,10 @@ namespace CreatingTextFile
         {
 
         }
+
+        private void FrmLab1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -26,5 +26,10 @@ namespace CreatingTextFile
         {
 
         }
+
+        private void btnOkay_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

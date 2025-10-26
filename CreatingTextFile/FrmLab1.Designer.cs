@@ -43,6 +43,7 @@
             // 
             // btnCreate
             // 
+            this.btnCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreate.Location = new System.Drawing.Point(325, 284);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(125, 51);
@@ -55,11 +56,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::CreatingTextFile.Properties.Resources._1233;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.btnCreate);
             this.Name = "FrmLab1";
             this.Text = "FrmLab1";
+            this.Load += new System.EventHandler(this.FrmLab1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
