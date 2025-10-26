@@ -57,7 +57,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CreatingTextFile.Properties.Resources._1233;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(792, 426);
             this.Controls.Add(this.txtInput);
             this.Controls.Add(this.btnCreate);
             this.Name = "FrmLab1";

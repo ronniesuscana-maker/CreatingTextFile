@@ -47,6 +47,7 @@
             this.cbProgram = new System.Windows.Forms.ComboBox();
             this.cbGender = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.btnRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtStudentNo
@@ -234,12 +235,24 @@
             this.label10.Text = "M.l.";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
+            // btnRegister
+            // 
+            this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegister.Location = new System.Drawing.Point(328, 362);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(82, 37);
+            this.btnRegister.TabIndex = 19;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
             // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CreatingTextFile.Properties.Resources._1233;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(818, 437);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.cbGender);
             this.Controls.Add(this.cbProgram);
@@ -288,5 +301,6 @@
         private System.Windows.Forms.ComboBox cbProgram;
         private System.Windows.Forms.ComboBox cbGender;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnRegister;
     }
 }
